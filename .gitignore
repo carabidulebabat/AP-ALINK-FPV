@@ -1,0 +1,92 @@
+# AP-ALINK-FPV Build Artifacts
+ap_alink
+ap_alink_debug
+ap_alink_x86
+ap_alink_x86_sitl
+test_wrapper
+test_wrapper_x86
+performance_test/test_wrapper_x86
+
+# Object Files
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+
+# Build Directories
+build/
+dist/
+out/
+bin/
+
+# IDE Files
+*.code-workspace
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Log Files
+*.log
+build.log
+*.out
+
+# Core Dumps
+core
+core.*
+
+# Temporary Files
+/tmp/
+/tmp/sitl_telemetry.txt
+/tmp/MSPOSD.msg
+
+# Configuration Backups
+*.conf.bak
+*.conf~
+*.orig
+
+# Test Artifacts
+test_results/
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Documentation Build
+docs/_build/
+site/
+
+# Performance Test Results
+performance_results/
+benchmark_results/
+Makefile.x86
+readme.md
+.cursor/README.md
+.cursor/rules
+.cursor/settings.json
+docker/docker-compose.yml
+docker/Dockerfile
+docker/Dockerfile.x86
+docker/README.md
+docker/run.sh
+docker/test-arch-linux.sh
+performance_test/performance_test.c
+performance_test/performance_test.h
+performance_test/README.md
+performance_test/test_performance_module.sh
+performance_test/test_wrapper.c
+sitl/sitl_integration_example.c
+sitl/SITL_README.md
+sitl/sitl_telemetry.c
+readme.md
+sitl/sitl_telemetry.h
+sitl/sitl.conf
+sitl/test_sitl.sh
